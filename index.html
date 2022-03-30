@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>  
+  <link rel ="stylesheet" href="main.css">
+  <title>calculator</title>
+</head>
+<body>
+  <div class="container">
+    <div id="result">
+      0
+    </div>
+    <div class="btns">
+      <button id="btn" value="7" onclick="number(this)">7</button>
+      <button id="btn" value="8" onclick="number(this)">8</button>
+      <button id="btn" value="9" onclick="number(this)">9</button>
+      <button id="btn" value="+" onclick="operate(this)">+</button>
+      <button id="btn" value="4" onclick="number(this)">4</button>
+      <button id="btn" value="5" onclick="number(this)">5</button>
+      <button id="btn" value="6" onclick="number(this)">6</button>
+      <button id="btn" value="-" onclick="operate(this)">-</button>
+      <button id="btn" value="1" onclick="number(this)">1</button>
+      <button id="btn" value="2" onclick="number(this)">2</button>
+      <button id="btn" value="3" onclick="number(this)">3</button>
+      <button id="btn" value="*" onclick="operate(this)">*</button>
+      <button id="btn" value="0" onclick="number(this)">0</button>
+      <button id="btn" value="00" onclick="number(this)">00</button>
+      <button id="dotbtn" value="." onclick="point(this)">.</button>
+      <button id="btn" value="/" onclick="operate(this)">/</button>
+      <button id="btn" value="AC" onclick="number(this)">AC</button>
+      <button id="btn" value="=" onclick="number(this)">=</button>
+    </div>
+  </div>
+  
+ <script src="main.js"></script>
+</body>
+</html>
